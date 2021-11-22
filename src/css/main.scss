@@ -125,12 +125,20 @@ img {
 
     .output-images {
         display: none;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
         gap: 1em;
-        margin-bottom: 2em;
+        margin: 2.5em 0;
+
+        .arrow-icon {
+            font-size: 4rem;
+            margin: .4em 0;
+        }
 
         img {
             height: auto;
+            border-radius: 5px;
         }
     }
 }
@@ -183,6 +191,11 @@ footer {
     .core {
         .output-images {
             grid-template-columns: 1fr;
+
+            .arrow-icon {
+                transform: rotate(90deg);
+                font-size: 2rem;
+            }
         }
     }
 }
