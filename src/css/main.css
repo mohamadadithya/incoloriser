@@ -76,8 +76,6 @@ img {
   -webkit-transition: .4s all ease;
   transition: .4s all ease;
   cursor: pointer;
-  -webkit-box-shadow: 0 5px 15px rgba(1, 119, 203, 0.3);
-          box-shadow: 0 5px 15px rgba(1, 119, 203, 0.3);
 }
 
 .main .about .btn-start:hover {
@@ -147,8 +145,6 @@ img {
   -webkit-transition: .4s all ease;
   transition: .4s all ease;
   cursor: pointer;
-  -webkit-box-shadow: 0 5px 15px rgba(1, 119, 203, 0.3);
-          box-shadow: 0 5px 15px rgba(1, 119, 203, 0.3);
 }
 
 .core .output-images {
