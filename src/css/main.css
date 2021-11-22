@@ -183,7 +183,7 @@ footer .copyright-text .sponsor {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
   .main {
     display: block;
     padding-top: 70px;
