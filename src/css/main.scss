@@ -191,8 +191,16 @@ footer {
         .output-images {
             grid-template-columns: 1fr;
 
+            .before {
+                order: 1;
+            }
+
+            .after {
+                order: -1;
+            }
+
             .arrow-icon {
-                transform: rotate(90deg);
+                transform: rotate(-90deg);
                 font-size: 2rem;
             }
         }
