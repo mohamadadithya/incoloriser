@@ -12,7 +12,7 @@ buttonStart.addEventListener('click', () => {
 
 var deepai = require('deepai')
 
-deepai.setApiKey('cc6ee6fe-168a-49b8-ad7c-b952db89928a') // Use your own API key from Deep AI
+deepai.setApiKey('Use your Own API Key from DeepAI')
 
 const callDeepAI = async () => {
     loader('show')
